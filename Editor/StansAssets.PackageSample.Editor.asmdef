@@ -1,0 +1,7 @@
+{
+    "name": "Blackwood.PackageSample.Editor",
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}
