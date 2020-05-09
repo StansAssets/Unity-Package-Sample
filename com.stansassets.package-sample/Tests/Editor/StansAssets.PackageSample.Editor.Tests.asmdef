@@ -1,5 +1,5 @@
 {
-    "name": "Blackwood.PackageSample.EditorTests",
+    "name": "StansAssets.PackageSample.Editor.Tests",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
