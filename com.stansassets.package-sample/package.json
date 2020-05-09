@@ -8,25 +8,24 @@
     "com.stansassets.foundation": "1.0.2"
   },
   "keywords": [
-    "pattern",
-    "utility",
-    "unity",
-    "stansassets"
+    "keyword1",
+    "keyword2",
+    "keyword3"
   ],
-  "type": "library",
-  "hideInEditor": false,
-  "homepage": "https://api.stansassets.com/",
-  "bugs": {
-    "url": "https://github.com/StansAssets/com.stansassets.foundation/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com:StansAssets/com.stansassets.foundation.git"
-  },
   "license": "MIT",
   "author": {
     "name": "Stan's Assets",
     "email": "stan@stansassets.com",
     "url": "https://stansassets.com/"
-  }
+  },
+  
+  "homepage": "https://api.stansassets.com/",
+  "bugs": {
+    "url": "https://github.com/StansAssets/com.stansassets.foundation/issues",
+    "email" : "support@stansassets.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:StansAssets/com.stansassets.foundation.git"
+  },
 }
