@@ -13,6 +13,9 @@
     "unity",
     "stansassets"
   ],
+  "type": "library",
+  "hideInEditor": false,
+  
   "homepage": "https://api.stansassets.com/",
   "bugs": {
     "url": "https://github.com/StansAssets/com.stansassets.foundation/issues"
@@ -26,5 +29,5 @@
     "name": "Stan's Assets",
     "email": "stan@stansassets.com",
     "url": "https://stansassets.com/"
-  }
+  },
 }
