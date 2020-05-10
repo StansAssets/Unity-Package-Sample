@@ -122,10 +122,7 @@ The template repository `CHANGELOG.md` has some sample records based on [keep a 
 The fill contains and offline package documentation. I recommend placing the package description and links to the web documentation into that file.
 
 ### README.md
-I do not think I have to explain why this is important :) Besides this file will be used to make home page content for your package if you distribute it on [npm](https://www.npmjs.com/) or [openUPM](https://openupm.com/)
-
-The template repository `README.md` already contains some content that describes how to install your package via [npm](https://www.npmjs.com/), [openUPM](https://openupm.com/) or [Git URL](https://docs.unity3d.com/Manual/upm-git.html)
-
+I do not think I have to explain why this is important :) Besides this file will be used to make home page content for your package if you distribute it on [npm](https://www.npmjs.com/) or [openUPM](https://openupm.com/). The template repository `README.md` already contains some content that describes how to install your package via [npm](https://www.npmjs.com/), [openUPM](https://openupm.com/) or [Git URL](https://docs.unity3d.com/Manual/upm-git.html) 
 There are also some cool badges you would probably like to use. The [Foundation package](https://github.com/StansAssets/com.stansassets.foundation) is a good example of how it can look like:
 ![](https://user-images.githubusercontent.com/12031497/81487844-4892f280-926a-11ea-9418-df89e427652b.png)
 
