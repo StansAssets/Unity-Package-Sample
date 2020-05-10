@@ -130,13 +130,25 @@ There are also some cool badges you would probably like to use. The [Foundation 
 ## CI / CD
 It's important to have, it will save your development time. Again this is something I don't have to explain, let's just to straight to what we already have set in this package template repository.
 
-### In the next article
+### Publish to NPM
+The action will publish package to npmjs every time the new GitHub release is created. The full article about this action and package distribution and publishing automation can be found [here](https://github.com/StansAssets/com.stansassets.foundation/wiki/Publish-Unity-package-with-NPMJS).
+* Action file: **publish-to-npm.yml**
+* Setup: update `<your-package-name>` with the package name that needs to be published. 
+
+### Assign PR Creator
+This GitHub action will assign pull requests to their authors.
+* Action file: **assign-pr-creator.yml**
+* Setup: not setup actions needed. 
+
+### Automatically Rebase PRs
+Simply comment `/rebase` to trigger the action. Read more about rebase action [here](https://github.com/cirrus-actions/rebase)
+* Action file: **automatic-rebase.yml**
+* Setup: not setup actions needed. 
+
+
+### Next Steps
 To make me completely happy about this template there should be few more set up steps. But I think we will get to it with the next article.
 
 * Automatic `CHANGELOG.md` generation. We are already feeling up the release notes, I don't see the reason why we have to do it again the `CHANGELOG.md` when we can simply have an automated commit before publishing to npm action.
 * Editor and Playmode tests. It's not a real CI until we have no tests running. 
-
-
-
-
-
+* Docfx + GitHub pages documentation static website generation.
