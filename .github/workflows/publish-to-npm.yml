@@ -23,6 +23,6 @@ jobs:
     - run: yarn install
       
     # Publish to npm
-    - run: npm publish com.stansassets.android --access public
+    - run: npm publish <your-package-name> --access public
       env:
         NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
