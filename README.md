@@ -118,7 +118,7 @@ The template repository `LICENSE.md` file already comes the MIT license.
 A changelog is a file that contains a curated, chronologically ordered list of notable changes for each version of a project. To make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.
 The template repository `CHANGELOG.md` has some sample records based on [keep a changelog](https://keepachangelog.com/) standard.
 
-### Documentation~/<package-name>.md
+### Documentation~/YourPackageName.md
 The fill contains and offline package documentation. I recommend placing the package description and links to the web documentation into that file.
 
 ### README.md
