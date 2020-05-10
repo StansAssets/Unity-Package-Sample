@@ -151,4 +151,4 @@ To make me completely happy about this template there should be few more set up 
 
 * Automatic `CHANGELOG.md` generation. We are already feeling up the release notes, I don't see the reason why we have to do it again the `CHANGELOG.md` when we can simply have an automated commit before publishing to npm action.
 * Editor and Playmode tests. It's not a real CI until we have no tests running. 
-* Docfx + GitHub pages documentation static website generation.
+* Docfx + GitHub Pages documentation static website generation.
