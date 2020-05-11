@@ -163,7 +163,9 @@ It's important to have, it will save your development time. Again this is someth
 ### Publish to NPM
 The action will publish package to npmjs every time the new GitHub release is created. The full article about this action and package distribution and publishing automation can be found [here](https://github.com/StansAssets/com.stansassets.foundation/wiki/Publish-Unity-package-with-NPMJS).
 * Action file: **publish-to-npm.yml**
-* Setup: update `<your-package-name>` with the package name that needs to be published. 
+* Setup: 
+    * Update `<your-package-name>` with the package name that needs to be published. 
+    * Add _NPM_TOKEN_ to the reprository Secrets. 
 
 ### Assign PR Creator
 This GitHub action will assign pull requests to their authors.
