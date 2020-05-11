@@ -127,8 +127,38 @@ I do not think I have to explain why this is important :) Besides this file will
 There are also some cool badges you would probably like to use. The [Foundation package](https://github.com/StansAssets/com.stansassets.foundation) is a good example of how it can look like:
 ![](https://user-images.githubusercontent.com/12031497/81487844-4892f280-926a-11ea-9418-df89e427652b.png)
 
+## Package layout
+The repository package layout follows an [official Unity packages convetion](https://docs.unity3d.com/Manual/cus-layout.html).
+
+```
+<root>
+  ├── package.json
+  ├── README.md
+  ├── CHANGELOG.md
+  ├── LICENSE.md
+  ├── Editor
+  │   ├── Unity.[YourPackageName].Editor.asmdef
+  │   └── EditorExample.cs
+  ├── Runtime
+  │   ├── Unity.[YourPackageName].asmdef
+  │   └── RuntimeExample.cs
+  ├── Tests
+  │   ├── Editor
+  │   │   ├── Unity.[YourPackageName].Editor.Tests.asmdef
+  │   │   └── EditorExampleTest.cs
+  │   └── Runtime
+  │        ├── Unity.[YourPackageName].Tests.asmdef
+  │        └── RuntimeExampleTest.cs
+  └── Documentation~
+       └── [YourPackageName].md
+```
+The only commend I would like to add if you not using something (for example, you do not have tests atm) or your package does not have Editor API. Please remove unused folders and `*.asmdef` files. 
+The same if you aren't keeping changelog up to date, then remove the `CHANGELOG.md`. 
+
+Keeping unused & not maintained parts in the published product is misleading for the users, please avoid.
+
 ## CI / CD
-It's important to have, it will save your development time. Again this is something I don't have to explain, let's just to straight to what we already have set in this package template repository.
+It's important to have, it will save your development time. Again this is something I don't have to explain, let's just go straight to what we already have set in this package template repository.
 
 ### Publish to NPM
 The action will publish package to npmjs every time the new GitHub release is created. The full article about this action and package distribution and publishing automation can be found [here](https://github.com/StansAssets/com.stansassets.foundation/wiki/Publish-Unity-package-with-NPMJS).
