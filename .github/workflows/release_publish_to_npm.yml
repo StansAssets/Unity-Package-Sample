@@ -18,9 +18,6 @@ jobs:
       with:
         node-version: 14
         registry-url: https://registry.npmjs.org/
-
-    # Command to install the package dependencies
-    - run: yarn install
       
     # Publish to npm
     - run: npm publish <your-package-name> --access public
