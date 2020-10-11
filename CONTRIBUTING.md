@@ -1,6 +1,6 @@
 # Contributing
 
-Thx for spending time and effort contributing to this repository. We do appreciate it. If you have in mind some fundamental or just big change please first discuss the change you wish to make via issue,
+Thank you for spending time and effort contributing to this repository. We do appreciate it. If you have in mind some fundamental or just big change please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change.
 
 Please note we have a [code of conduct](https://github.com/StansAssets/com.stansassets.foundation/wiki/Code-of-Conduct), 
