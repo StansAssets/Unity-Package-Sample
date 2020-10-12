@@ -9,7 +9,7 @@ and [code convention](https://github.com/StansAssets/com.stansassets.foundation/
 ## Pull Request Process
 
 1. Follow the pull request template and describe what exact feature or fix you want to add and why do you think this is nessesary. 
-If feature is accepted it's describion will be included into the documentation. Please try to be as clear as possible, so we won't have to edit when updating the documentation.
+If feature is accepted it's description will be included into the documentation. Please try to be as clear as possible, so we won't have to edit when updating the documentation.
 2. Increase the version numbers in the `package.json` if nessesary. The versioning scheme we use is [SemVer](http://semver.org/).
-3. Pull Request will be merged by rewier. 
+3. Pull Request will be merged by reviewer. 
 
